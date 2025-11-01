@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To Do Listesi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="div1">
+    <h1 id="baslik">To Do Listesi</h1>
+  </div>
+  <div id="divAra">
+    <input type="text" id="gorevAra" placeholder="Görev ara..." />
+  </div>
+  <div id="divButonlar">
+    <button id="btnYeniGorev">Yeni Görev Ekle</button>
+    <button id="btnTum">Tümü</button>
+    <button id="btnTamamlanan">Tamamlananlar</button>
+    <button id="btnAktif">Aktifler</button>
+    <button id="btnSirala">Tarihe Göre Sırala</button>
+  </div>
+  <div id="kutu">
+    <table>
+      <thead>
+        <tr>
+          <th>Durum</th>  
+          <th>Görev</th>
+          <th>Tarih</th>
+          <th>Sil</th>
+        </tr>
+      </thead>
+      <tbody id="tbod">
+        <!-- Görevler buraya gelecek -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
